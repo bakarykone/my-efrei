@@ -1,0 +1,21 @@
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    border: 1px solid grey;
+    padding: 25px;
+  }
+  
+  .navigation a {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .navigation a:hover {
+    color: #888;
+  }
+  
+  .navigation a.active {
+    color: orange;
+  }

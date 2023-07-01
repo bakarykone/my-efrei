@@ -1,0 +1,36 @@
+.header {
+    background-color: rgb(22, 55, 103);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+  }
+  
+  .left-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 99px;
+    height: 34px;
+  }
+  
+  .admin-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 12px;
+    font-style: italic;
+  }
+
+  .avatar img {
+    width: 40px;
+    filter: invert(100%);
+  }
